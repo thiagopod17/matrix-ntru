@@ -1,3 +1,25 @@
+'''
+Matrix NTRU system as defined in Nayak 2008
+
+MAIN FUNCTIONS:
+
+- Set parameters: setParameters([n,q])
+- Key generation: keygen()
+- Encryption: encrypt(M,H)
+- Decryption: decrypt(E,X,Xp)
+
+NOTES:
+
+- p is fixed as 3 as in the original paper
+
+REFERENCES
+
+Nayak, R., Sastry, C., and Pradhan, J. (2008). A matrix formulation for ntru cryptosystem.
+In 2008 16th IEEE International Conference on Networks, pages 1–5. IEEE.
+
+'''
+
+
 from sage.matrix.constructor import random_matrix,Matrix, block_matrix
 
 # p is fixed as 3
@@ -88,26 +110,4 @@ def decrypt(E,X,Xp):
 def randomMessage():
     M = random_matrix(ZZ, nrows = n, ncols = n, x=-1, y=2)
     return M
-
-
-
-"""
-exist D1, D2, unimodular matrices such that  X2 = D1 * X = X * D2
-
-A2 = X2 * E = X * D2 * ( H * R + M) = D1 * X * ( H * R + M)
-
-
-A2 = D1 * X * ( H * R + M)  = D1 * X * ( p * Xq * Y * R + M)  = D1 * p X * Xq * Y * R + D1 * X * M  mod q 
-
-A2 = D1 * p * Y * R + D1 * X * M = (since D1 only change signs and permute lines of (YR), we can still make mod p 
-
-A2 mod p = 0 + D1 * X * M = X2 * M 
-
-Now, 
-
-C2 = X2p * (X2 * M) mod p = M. 
-
-
-"""
-
 
