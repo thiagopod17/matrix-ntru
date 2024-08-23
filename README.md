@@ -3,7 +3,7 @@
 - Implementation of the matrix NTRU cryptosystem as defined in Nayak
 - LLL attack for recovering the private key and an attack to recover the message
 
-# REFERENCES
+# References
 
 Nayak, R., Sastry, C., and Pradhan, J. (2008). A matrix formulation for ntru cryptosystem.
 In 2008 16th IEEE International Conference on Networks, pages 1–5. IEEE.
