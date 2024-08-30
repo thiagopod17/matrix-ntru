@@ -1,4 +1,4 @@
-# Matrix NTRU system as defined in Nayak 2008 and its LLL attack as in do Rego Sousa 2024
+# Matrix NTRU system as defined in Nayak (2008) and its LLL attack as in do Rego Sousa and Carneiro (2024)
 
 - Implementation of the matrix NTRU cryptosystem as defined in Nayak
 - LLL attack for recovering the private key and an attack to recover the message
