@@ -5,7 +5,7 @@
 
 # Where to Start?
 
-- Use the [Examples.ipynb]([https://caminhodoarquivo](https://github.com/thiagopod17/matrix-ntru/blob/main/EXAMPLES.ipynb))
+- Use the [Examples.ipynb](https://github.com/thiagopod17/matrix-ntru/blob/main/EXAMPLES.ipynb)
 
 # References
 
