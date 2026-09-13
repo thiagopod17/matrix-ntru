@@ -69,7 +69,7 @@ Attack notebooks:
 | `reduceL(H, n, p, q)` | `matrix_ntru_attack.ipynb` | Builds the lattice and returns the BKZ-reduced candidate private key |
 | `attack(n, q, verbose=False)` | `matrix_ntru_attack.ipynb` | Full message-recovery attack: generates a key pair and message, then decrypts using only the BKZ-derived key |
 
-## Package layout
+## Repository layout
 
 - `matrix_ntru_system.sage` — core cryptosystem: parameters, key generation, encryption, decryption
 - `EXAMPLES.ipynb` — basic walkthrough of the system
