@@ -81,4 +81,4 @@ Attack notebooks:
 ## Reference
 
 1. Nayak, R., Sastry, C., and Pradhan, J. (2008). A matrix formulation for ntru cryptosystem. In 2008 16th IEEE International Conference on Networks, pages 1–5. IEEE.
-2. do Rego Sousa, T. and Carneiro, T. (2024). Lattice Base Reduction Attack on Matrix NTRU. SBSEG 2024.
+2. do Rego Sousa, T. and Souza Neto, T. (2024). Lattice Base Reduction Attack on Matrix NTRU. *SBSeg 2024*, 431–444. <doi:10.5753/sbseg.2024.240851>
